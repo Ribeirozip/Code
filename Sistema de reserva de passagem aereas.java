@@ -10,8 +10,8 @@ public class Viagens {
 
             Azul v1 = new Azul();
             //gets infos de usuario
-            v1.getNumVoo();// ex: v1.getNumvoo(111);
-            v1.getCliente();// ex: v1.getCliente("Jorge");
+            v1.setNumVoo();// ex: v1.setNumvoo(111);
+            v1.setCliente();// ex: v1.setCliente("Jorge");
             //Açoes possiveis
             v1.startReserva(); // programa so inicia com isso
             v1.perfil();// Perfil com infos do usuario e infos de reservas e milhas
