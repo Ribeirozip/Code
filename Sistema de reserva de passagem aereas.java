@@ -139,22 +139,27 @@ public class Azul {
 
         }
         public void fazerReserva(int r){
-            if (this.getStatus()) {
+        if (this.getStatus()) {
+            if (r>0) {
                 if (this.getReserva() >= r) {
                     this.setReserva((int) (this.getReserva() - r));
-                    this.milhas=milhas+r;
+                    this.milhas = milhas + r;
                     System.out.println("---------------------------------------");
                     System.out.println("Reserva realizada com sucesso!! " + this.getCliente());
+
                 } else {
                     System.out.println("---------------------------------------");
                     System.out.println("Seu pedido de reserva foi maior do que o numero de disponiveis");
                 }
-            }else {
-                System.out.println("---------------------------------------");
-                System.out.println("Impossivel fazer reservas sem começar o programa\n DIGITE startReserva()");
-                System.out.println("---------------------------------------");
-            }
+            }else{
+                System.out.println("bote numero positivo por favor!!");}
+
+        }else {
+            System.out.println("---------------------------------------");
+            System.out.println("Impossivel fazer reservas sem começar o programa\n DIGITE startReserva()");
+            System.out.println("---------------------------------------");
         }
+    }
         public void milhas(){
             if (this.getStatus()) {
                 if (this.milhas<=5){
