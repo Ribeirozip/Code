@@ -87,7 +87,7 @@ public class Azul {
 
     }
 
-    public void perfil() {
+   private void perfil() {
         JLabel la = new JLabel("Perfil de Usuario ", JLabel.CENTER);
         la.setFont(new Font("Calibri", Font.BOLD, 40));
         la.setForeground(Color.darkGray);
@@ -98,14 +98,8 @@ public class Azul {
         frame.setSize(700, 700);
         frame.add(la);
         frame.setVisible(true);
-
-        System.out.println("---------------------------------------");
-        System.out.println("----------------PERFIL-----------------");
-        System.out.println("Nome do Cliente:" + this.getCliente());
-        System.out.println("Numero do voo:" + this.getNumVoo());
-        System.out.println("Numero de reservas Disponiveis:" + (this.reserva));
-        System.out.println("Suas milhas:" + this.milhas);
-        System.out.println("---------------------------------------");
+        JOptionPane.showMessageDialog(null, "Nome do Cliente: "+this.getCliente()+"\nNumero do voo: "+this.getNumVoo()+
+                "\nNumero de reservas disponiveis: "+this.reserva+"\nSuas milhas: "+this.milhas,"Perfil",JOptionPane.INFORMATION_MESSAGE);
     }
 
     private void startReserva() {
