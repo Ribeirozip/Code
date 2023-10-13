@@ -1,4 +1,4 @@
-ATIVIDADE 1
+//ATIVIDADE 1
 import java.util.Scanner;
 
 public class atv1 {
@@ -29,7 +29,7 @@ public class atv1 {
     }
 
 
-ATIVIDADE 2
+//ATIVIDADE 2
 
 public class atv1 {
     public static void main(String[] args) {
@@ -56,7 +56,7 @@ public class atv1 {
 
 }
 
-ATIVIDADE 3
+//ATIVIDADE 3
 
 import java.util.Scanner;
 
@@ -81,7 +81,7 @@ public class atv1 {
 
 }
 
-ATIVIDADE 4
+//ATIVIDADE 4
 
 import java.util.Scanner;
 
@@ -106,7 +106,7 @@ public class atv1 {
     entrada.close();
     }
 
-ATIVIDADE 5
+//ATIVIDADE 5
 
 import java.util.Scanner;
 
@@ -125,7 +125,7 @@ public class atv1 {
 
 }
 
-ATIVIDADE 6
+//ATIVIDADE 6
 
 import java.util.Scanner;
 import javax.swing.JOptionPane;
