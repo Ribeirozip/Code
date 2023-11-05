@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <script
+      src="https://kit.fontawesome.com/7f335cf7b9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body class="themed">
+    <div class="main">
+      <div id="illustration"></div>
+      <div class="form-container">
+        <div class="theme-selector">
+          <input
+            type="checkbox"
+            id="switch"
+            onchange="onThemeChange()"
+            value="dark"
+          />
+          <label for="switch">Toggle</label>
+        </div>
+        <div class="form-header">
+          <h3>Venha economizar com a gente</h3>
+          <p>Não tem uma conta? <a>Cadastre-se</a></p>
+        </div>
+        <form>
+          <input placeholder="Email" />
+          <input placeholder="Senha" type="password" />
+          <button type="submit" form="form" value="Submit">Continuar</button>
+        </form>
+        <div class="form-buttons">
+          <button>
+            <i class="fa-brands fa-google"></i>
+            <span>Continuar com Google</span>
+          </button>
+          <button>
+            <i class="logoface"></i>
+          </button>
+          <button>
+            <i class="logoapple"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
